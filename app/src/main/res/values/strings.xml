@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GSLC Location Based Service</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="maps_api_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyBAkHOAYzQto_zyda8FVC9pSoyqmL5XpAE
+    </string>
+</resources>
