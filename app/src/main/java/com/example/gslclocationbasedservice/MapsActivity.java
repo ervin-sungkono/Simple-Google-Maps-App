@@ -90,6 +90,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         Address address = addressList.get(0);
 
                         currentPinpoint = new LatLng(address.getLatitude(), address.getLongitude());
+                        activeMarker.remove();
                         activeMarker = mMap.addMarker(new MarkerOptions().position(currentPinpoint).title(location));
                         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(currentPinpoint, 10));
                     }
